@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#color-tools{
+    width: 350px;
+    height: 350px;
+    background-color: #000;
+    margin-top: 10rem;
+    border-radius: 1rem;
+}
+
+
+
+/* COLOR TUBES */
+.color-tube{
+    margin: auto;
+    width: 80%;
+    height: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    overflow: hidden;
+}
+
+#red-color-tube{
+    background-color: rgb(104, 1, 1);
+}
+
+#green-color-tube{
+    background-color: rgb(2, 63, 2);
+}
+
+#blue-color-tube{
+    background-color: rgb(2, 2, 112);
+}  
+
+
+
+/* COLOR FILLERS */
+.red-color-fill{
+    height: inherit;
+    width: 0;
+    background-color: red;
+    border-radius: 1rem;
+}
+
+.green-color-fill{
+    height: inherit;
+    width: 0;
+    background-color: rgb(7, 248, 7);
+    border-radius: 1rem;
+}
+
+.blue-color-fill{
+    height: inherit;
+    width: 0;
+    background-color: blue;
+    border-radius: 1rem;
+}
+
+
+
+/* COLOR HOLDERS */
+.red-holder{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.green-holder{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.blue-holder{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+
+
+/* COLOR NUMS */
+.num{
+    color: #fff;
+    margin: auto;
+    margin-left: 3rem;
+}
